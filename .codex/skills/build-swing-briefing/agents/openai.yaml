@@ -1,0 +1,4 @@
+interface:
+  display_name: "스윙 브리핑"
+  short_description: "거시부터 종목까지 하향식 스윙 브리핑을 만듭니다"
+  default_prompt: "$build-swing-briefing 스킬로 최신 하향식 스윙 트레이딩 브리핑을 작성해 주세요."

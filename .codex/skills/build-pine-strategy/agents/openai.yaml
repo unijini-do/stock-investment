@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pine 전략 빌더"
+  short_description: "백테스트가 내장된 Pine Script 전략을 만듭니다"
+  default_prompt: "$build-pine-strategy 스킬로 이 아이디어를 백테스트 가능한 Pine Script 전략으로 만들어 주세요."

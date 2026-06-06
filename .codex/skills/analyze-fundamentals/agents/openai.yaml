@@ -1,0 +1,4 @@
+interface:
+  display_name: "펀더멘털 분석"
+  short_description: "기업 재무·해자·밸류에이션을 기관식으로 분석합니다"
+  default_prompt: "$analyze-fundamentals 스킬로 이 기업의 펀더멘털과 밸류에이션을 분석해 주세요."

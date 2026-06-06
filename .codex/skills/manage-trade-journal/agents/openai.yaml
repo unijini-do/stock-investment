@@ -1,0 +1,4 @@
+interface:
+  display_name: "매매일지 복기"
+  short_description: "매매 결정과 결과를 기록하고 반복 패턴을 복기합니다"
+  default_prompt: "$manage-trade-journal 스킬로 이 매매를 기록하거나 복기하고 로컬 일지를 갱신해 주세요."

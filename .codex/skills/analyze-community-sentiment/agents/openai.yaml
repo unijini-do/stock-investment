@@ -1,0 +1,4 @@
+interface:
+  display_name: "커뮤니티 감정 분석"
+  short_description: "한국·미국 투자 커뮤니티의 과열과 공포를 분석합니다"
+  default_prompt: "$analyze-community-sentiment 스킬로 현재 미국·한국 투자 커뮤니티 감정을 분석해 주세요."

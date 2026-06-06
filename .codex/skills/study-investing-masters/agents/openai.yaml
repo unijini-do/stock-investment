@@ -1,0 +1,4 @@
+interface:
+  display_name: "투자 거장 학습"
+  short_description: "거장 방법론과 최신 알파 아이디어를 학습합니다"
+  default_prompt: "$study-investing-masters 스킬로 오늘의 투자 거장과 알파 리서치 학습 세트를 만들어 주세요."

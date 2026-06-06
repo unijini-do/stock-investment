@@ -6,6 +6,7 @@ Claude에서 사용하던 투자 리서치 지침을 로컬 파일 중심의 프
 
 - `orchestrator/`: 전체 투자 파이프라인과 라우팅 지침
 - `agents/`: 전문 서브 에이전트별 지침
+- `.codex/skills/`: Codex가 자동 발견하는 프로젝트 전용 스킬
 - `shared/`: 공통 원칙, 저장 규칙, 출력 계약
 - `templates/`: Markdown 및 HTML 대시보드 템플릿
 - `outputs/YYYY-MM-DD/`: 날짜별 실제 분석 산출물
@@ -27,6 +28,28 @@ npm run archive -- 2026-06-06
 
 ```bash
 npm run archive -- 2026-06-06 --vault "/절대경로/내 Obsidian Vault"
+```
+
+## 프로젝트 스킬
+
+각 하위 에이전트는 `.codex/skills/`에 독립 스킬로 등록되어 있습니다.
+
+```text
+$analyze-macro-regime
+$extract-etf-leaders
+$analyze-community-sentiment
+$build-swing-briefing
+$analyze-fundamentals
+$study-investing-masters
+$build-pine-strategy
+$manage-trade-journal
+$review-portfolio
+```
+
+원본 `agents/` 지침이나 공통 템플릿을 수정한 뒤에는 스킬 리소스를 동기화합니다.
+
+```bash
+npm run sync-skills
 ```
 
 ## 핵심 원칙

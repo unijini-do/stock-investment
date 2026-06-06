@@ -1,0 +1,4 @@
+interface:
+  display_name: "ETF 주도 종목"
+  short_description: "ETF 자금 흐름에서 주도 종목과 테마를 찾습니다"
+  default_prompt: "$extract-etf-leaders 스킬로 현재 ETF 자금 흐름과 주도 종목을 찾아 주세요."

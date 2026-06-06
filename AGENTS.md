@@ -6,22 +6,22 @@
 
 1. 모든 작업에서 `shared/PREFERENCES.md`, `shared/STORAGE.md`, `shared/OUTPUT_CONTRACT.md`를 먼저 읽는다.
 2. 복합 요청은 `orchestrator/INSTRUCTIONS.md`를 적용한다.
-3. 단일 전문 요청은 아래 라우팅 표에 해당하는 지침을 추가로 읽는다.
+3. 단일 전문 요청은 아래 라우팅 표의 프로젝트 스킬을 사용한다.
 4. 당일 산출물 디렉터리가 없으면 `node scripts/scaffold-day.mjs YYYY-MM-DD`로 만든다.
 
 ## 라우팅
 
-| 요청 | 지침 |
-|---|---|
-| 거시, 금리, 경기 국면 | `agents/01-macro-regime/INSTRUCTIONS.md` |
-| ETF 자금 흐름, 주도 종목 | `agents/02-etf-leader/INSTRUCTIONS.md` |
-| 커뮤니티 심리, 과열, 공포 | `agents/03-community-sentiment/INSTRUCTIONS.md` |
-| 일일 스윙 브리핑 | `agents/04-swing-briefing/INSTRUCTIONS.md` |
-| 기업 재무, 밸류에이션 | `agents/05-fundamental/INSTRUCTIONS.md` |
-| 투자 거장 학습, 알파 아이디어 | `agents/06a-masters-advisor/INSTRUCTIONS.md` |
-| Pine Script, 백테스트 | `agents/06b-pine-builder/INSTRUCTIONS.md` |
-| 매매일지, 복기, 기록 | `agents/07-trade-journal/INSTRUCTIONS.md` |
-| 포트폴리오 점검, 비중 | `agents/08-portfolio-manager/INSTRUCTIONS.md` |
+| 요청 | 프로젝트 스킬 | 원본 지침 |
+|---|---|---|
+| 거시, 금리, 경기 국면 | `$analyze-macro-regime` | `agents/01-macro-regime/INSTRUCTIONS.md` |
+| ETF 자금 흐름, 주도 종목 | `$extract-etf-leaders` | `agents/02-etf-leader/INSTRUCTIONS.md` |
+| 커뮤니티 심리, 과열, 공포 | `$analyze-community-sentiment` | `agents/03-community-sentiment/INSTRUCTIONS.md` |
+| 일일 스윙 브리핑 | `$build-swing-briefing` | `agents/04-swing-briefing/INSTRUCTIONS.md` |
+| 기업 재무, 밸류에이션 | `$analyze-fundamentals` | `agents/05-fundamental/INSTRUCTIONS.md` |
+| 투자 거장 학습, 알파 아이디어 | `$study-investing-masters` | `agents/06a-masters-advisor/INSTRUCTIONS.md` |
+| Pine Script, 백테스트 | `$build-pine-strategy` | `agents/06b-pine-builder/INSTRUCTIONS.md` |
+| 매매일지, 복기, 기록 | `$manage-trade-journal` | `agents/07-trade-journal/INSTRUCTIONS.md` |
+| 포트폴리오 점검, 비중 | `$review-portfolio` | `agents/08-portfolio-manager/INSTRUCTIONS.md` |
 
 ## 산출물 규칙
 

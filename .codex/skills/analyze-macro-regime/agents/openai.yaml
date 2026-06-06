@@ -1,0 +1,4 @@
+interface:
+  display_name: "거시 국면 분석"
+  short_description: "미국·한국 거시 국면과 주식 노출도를 분석합니다"
+  default_prompt: "$analyze-macro-regime 스킬로 현재 미국·한국 거시 국면과 주식 노출도를 분석해 주세요."

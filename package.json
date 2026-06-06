@@ -7,6 +7,7 @@
     "day": "node scripts/scaffold-day.mjs",
     "archive": "node scripts/archive-day.mjs",
     "sync-refs": "node scripts/sync-references.mjs",
+    "sync-skills": "node scripts/sync-skills.mjs",
     "check": "node scripts/validate-project.mjs"
   }
 }
