@@ -1,0 +1,12 @@
+{
+  "name": "stock-investment-orchestrator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "day": "node scripts/scaffold-day.mjs",
+    "archive": "node scripts/archive-day.mjs",
+    "sync-refs": "node scripts/sync-references.mjs",
+    "check": "node scripts/validate-project.mjs"
+  }
+}
